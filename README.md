@@ -1,8 +1,8 @@
 ## JT_playbook
-Install RDkit and jupyter lab 
+Install RDkit, jupyter lab, igraph, matplotlib
 ```
- conda create -c conda-forge -n jt-playbook rdkit
+ conda create -n jt-playbook 
  conda activate jt-playbook
- conda install -c conda-forge jupyterlab
+ conda install -c conda-forge rdkit jupyterlab python-igraph matplotlib
 
 ```
