@@ -1,7 +1,8 @@
-## Junction Tree-based Structural Explanation of Molecular Graph Neural Networks
-# JT_playbook
-
+## JT_playbook
+Install RDkit and jupyter lab 
 ```
- conda create -c conda-forge -n my-rdkit-env rdkit
- conda activate my-rdkit-env
+ conda create -c conda-forge -n jt-playbook rdkit
+ conda activate jt-playbook
+ conda install -c conda-forge jupyterlab
+
 ```
